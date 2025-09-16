@@ -1,6 +1,6 @@
-title: "Chuck C — Portfolio"
+title: "Marizu Okemniri — Portfolio"
 description: "Data & IT Systems — Public Health, Security, and Analytics"
-url: "https://<your-username>.github.io"
+url: "https://marizuokemiri.github.io"
 baseurl: ""
 
 markdown: kramdown
@@ -33,7 +33,7 @@ nav:
     url: /contact/
 
 author:
-  name: "Chuck C"
+  name: "Marizu Okemiri"
   email: "example@email.com"
 
 exclude:
