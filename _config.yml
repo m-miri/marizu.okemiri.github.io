@@ -1,0 +1,41 @@
+title: "Chuck C — Portfolio"
+description: "Data & IT Systems — Public Health, Security, and Analytics"
+url: "https://<your-username>.github.io"
+baseurl: ""
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: page
+      toc: false
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+author:
+  name: "Chuck C"
+  email: "example@email.com"
+
+exclude:
+  - vendor
+  - node_modules

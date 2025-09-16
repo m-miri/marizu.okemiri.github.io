@@ -1,0 +1,17 @@
+<header id="header" class="alt">
+  <h1 id="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="{% if page.url == '/' %}current{% endif %}"><a href="{{ '/' | relative_url }}">Welcome</a></li>
+      <li class="submenu">
+        <a href="#">Layouts</a>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/<your-username>" class="button primary">GitHub</a></li>
+    </ul>
+  </nav>
+</header>
