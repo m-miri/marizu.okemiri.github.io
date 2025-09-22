@@ -24,7 +24,6 @@ lead: ""
         <p>Implemented mobile device monitoring to improve visibility and enforce security baselines across Apple endpoints using JAMF.</p>
       </section>
     </div>
-  </div>
 
   <footer class="major">
     <ul class="buttons">
