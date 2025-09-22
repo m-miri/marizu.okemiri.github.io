@@ -1,5 +1,5 @@
 title: "Marizu Okemiri — Portfolio"
-description: "Data & IT Systems — Public Health, Security, and Analytics"
+description: "Public Health Data & IT Systems: Security and Analytics"
 url: "https://m-miri.github.io"
 baseurl: ""
 
@@ -34,7 +34,7 @@ nav:
 
 author:
   name: "Marizu Okemiri"
-  email: "example@email.com"
+  email: "mmokemiri@gmail.com"
 
 exclude:
   - vendor
