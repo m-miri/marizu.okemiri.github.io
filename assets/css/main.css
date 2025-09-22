@@ -3339,12 +3339,14 @@ input, select, textarea {
 			}
 
 	}
-/* 🔧 Custom Spacing Overrides */
+
+/* Custom spacing adjustments */
 .wrapper.style3.container.special {
-  margin-bottom: 2em !important; /* reduce bottom space */
+  margin-bottom: 2em !important;
 }
 
 .wrapper.style4 {
-  padding-top: 2em !important;   /* reduce top space */
-  padding-bottom: 3em !important; /* optional: less space below CTA */
+  padding-top: 2em !important;
+  padding-bottom: 3em !important;
 }
+
