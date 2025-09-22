@@ -5,6 +5,16 @@ subtitle: "Public Health Analytics and Systems Projects"
 lead: ""
 ---
 
+<style>
+  ul.actions.special {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.actions.special li {
+    list-style: none;
+  }
+</style>
+
 <section class="wrapper style3 container special">
   <header class="major">
     <h2>Projects</h2>
@@ -46,4 +56,5 @@ lead: ""
     </ul>
   </footer>
 </section>
+
 
