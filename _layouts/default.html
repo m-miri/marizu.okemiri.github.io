@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>{% include head.html %}</head>
+  <head>
+    {% include head.html %}
+  </head>
   <body class="index is-preload">
     <div id="page-wrapper">
+
       {% include header.html %}
       {% include banner.html %}
+
       <article id="main">
         <header class="special container">
-          {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
-          {% if page.lead %}<p>{{ page.lead }}</p>{% endif %}
+          {% if page.subtitle %}
+            <h2>{{ page.subtitle }}</h2>
+          {% endif %}
+          {% if page.lead %}
+            <p>{{ page.lead }}</p>
+          {% endif %}
         </header>
+
         <section id="main" class="wrapper style1 container special">
           {{ content }}
         </section>
       </article>
-      <section id="cta">
-        <header>
-          <h2>Ready to do <strong>something</strong>?</h2>
-          <p>Replace this copy in <code>_layouts/default.html</code> or remove the CTA.</p>
-        </header>
-        <footer>
-          <ul class="buttons">
-            <li><a href="mailto:{{ site.author.email }}" class="button primary">Contact</a></li>
-            <li><a href="{{ '/projects/' | relative_url }}" class="button">See Work</a></li>
+
+      <!-- Cleaned CTA Section -->
+      <section id="cta" class="wrapper style4">
+        <div class="container">
+          <header>
+            <h2>Want to connect?</h2>
+            <p>I'm open to opportunities in data, public health, and IT systems.</p>
+          </header>
+          <ul class="actions">
+            <li>
+              <a href="mailto:mmokemiri@gmail.com" class="button primary">Email Me</a>
+            </li>
           </ul>
-        </footer>
+        </div>
       </section>
+
       {% include footer.html %}
     </div>
+
     {% include scripts.html %}
   </body>
 </html>
+
